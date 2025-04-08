@@ -11,4 +11,6 @@ jobs:
       board: '["eyelash_corne_left", "eyelash_corne_right"]'
       shield: '["nice_view"]'
       nav: '["vi"]'
+      custom_config: '["#define MIRYOKU_CLIPBOARD_MAC\n#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=1600000\nCONFIG_ZMK_MOUSE=y"]'
       modules: '["a741725193/zmk-new_corne/main"]'
